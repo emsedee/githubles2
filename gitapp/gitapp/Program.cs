@@ -13,11 +13,12 @@ namespace gitapp
                 int d = 255555;
             Console.WriteLine(c - d);
             int e = 5678;
-            int d = 25556;
-            Console.WriteLine(e * d);
+            int k = 25556;
+            Console.WriteLine(e * k);
             int f = 100;
             int penis = 10;
             Console.WriteLine(f / penis);
+            // test
         }
     }
 }
