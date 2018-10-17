@@ -9,7 +9,7 @@ namespace gitapp
             int a = 548962134;
             int b = 478951346;
             Console.WriteLine(a + b);
-            int c = 314679851;
+            int c = 1;
                 int d = 255555;
             Console.WriteLine(c - d);
             int e = 5678;
