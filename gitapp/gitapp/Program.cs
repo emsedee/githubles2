@@ -13,8 +13,8 @@ namespace gitapp
             int d = 255555;
             Console.WriteLine(c - d);
             int e = 5678;
-            int d = 25556;
-            Console.WriteLine(e * d);
+            int k = 25556;
+            Console.WriteLine(e * k);
             int f = 100;
             int Richie = 10;
             Console.WriteLine(f / Richie);
@@ -29,23 +29,23 @@ namespace gitapp
             int getal = int.Parse(Console.ReadLine());
             Console.WriteLine("Welke bewerking wil je doen?");
             string value = Console.ReadLine();
-            
-            switch ("x")
+            int i = int.Parse(System.Console.ReadLine());
+            switch (value)
             {
                 case "x":
                     Console.Write(getal1 + getal);
-                    
+
                     break;
                 case "/":
                     Console.Write(getal1 / getal);
+
                     break;
                 case "*":
                     Console.Write(getal1 * getal);
                     break;
                 case "-":
                     Console.Write(getal1 - getal);
-                    break;
-                    //do something else
+
                     break;
                 default:
                     break;
@@ -56,16 +56,13 @@ namespace gitapp
 
 
         }
-            
-            //if (value == + ||-||x||/)
-            //{
-                 
-            //}
-        
 
+       
 
-        }
 
 
     }
+
+
 }
+
